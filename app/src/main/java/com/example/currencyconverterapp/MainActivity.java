@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity
 
     public String getconversionrate(String convertfrom, String convertto, Double amounttoconvert) {
         RequestQueue queue= Volley.newRequestQueue(this);
-        String url ="https://freecurrconv.com/api/v7/convert7?q="+convertfrom+"_"+convertto+"&compact=ultra&apiKey=e28c5bce9ae4c0b0c659";
+        String url ="https://free.currencyconverterapi.com/"+convertfrom+"_"+convertto+"&compact=ultra&apiKey=e28c5bce9ae4c0b0c659";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
