@@ -28,7 +28,8 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
 
     TextView convertfromdropdowntextview,converttodropdowntextview, conversionratetext;
     EditText amounttoconvert;
